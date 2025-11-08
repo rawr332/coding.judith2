@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RNG Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎲 RNG - Generator Angka Acak</h1>
+        <p>Tentukan batas minimum dan maksimum, lalu klik tombol untuk menghasilkan angka acak.</p>
+        
+        <div class="input-group">
+            <label for="minInput">Angka Minimum:</label>
+            <input type="number" id="minInput" value="1" min="0">
+        </div>
+
+        <div class="input-group">
+            <label for="maxInput">Angka Maksimum:</label>
+            <input type="number" id="maxInput" value="100" min="1">
+        </div>
+        
+        <button id="generateButton">Generate Angka</button>
+        
+        <div class="result-box">
+            <h2>Angka Acak:</h2>
+            <p id="resultNumber">?</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
